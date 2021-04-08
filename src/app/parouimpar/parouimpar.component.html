@@ -1,0 +1,6 @@
+<div class="container-fluid div-conteiner">
+  <h2>Par ou ímpar</h2>
+  <input type="number" [(ngModel)]="parImpar" placeholder="Insira um número">
+  <p *ngIf="isPar() && parImpar">É par</p>
+  <p *ngIf="isImpar() && parImpar">É ímpar</p>
+</div>
